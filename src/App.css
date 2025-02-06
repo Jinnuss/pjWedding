@@ -63,7 +63,6 @@
     border-radius: 150px;
     background: rgb(54, 101, 115);
     background: linear-gradient(0deg, rgba(54, 101, 115, 1) 4%, rgba(116, 189, 185, 1) 100%);
-    opacity: 0.95;
     padding: 20px;
     z-index: 4;
 }

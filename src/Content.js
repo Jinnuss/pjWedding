@@ -1,5 +1,5 @@
 import './App.css';
-import img1 from './img1/448900891_1517987695798721_5092223408935416574_n.jpg';
+import img1 from './img1/1-1.jpg';
 import img3 from './img1/15-removebg-preview.png';
 import img4 from './img1/c214fb4710f7b69beafc9d094aaa058b-removebg-preview.png';
 import img5 from './img1/10.png';
@@ -13,17 +13,17 @@ export function Content() {
     return (
         <>
             <div className="Section1">
-                <div className="img1">
+                <div className="img1" data-aos="zoom-out">
                     <img className="img" src={img1} alt="ảnh 1" />
                 </div>
                 <div className="item3">
                     <div className="img2">
                         <img src={img2} alt="ảnh 2" />
                     </div>
-                    <div className="img3">
+                    <div className="img3" data-aos="zoom-in">
                         <img src={img3} alt="ảnh 3" />
                     </div>
-                    <div className="img4">
+                    <div className="img4" data-aos="zoom-in">
                         <img src={img3} alt="ảnh 3" />
                     </div>
                     {/* <div className="img5">
