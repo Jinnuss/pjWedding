@@ -3,6 +3,8 @@ import img1 from './img1/1-1.jpg';
 import img3 from './img1/15-removebg-preview.png';
 import img4 from './img1/c214fb4710f7b69beafc9d094aaa058b-removebg-preview.png';
 import img5 from './img1/10.png';
+import img2 from './img1/12.png';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -14,20 +16,22 @@ export function Content() {
                 <div className="img1">
                     <img className="img" src={img1} alt="ảnh 1" />
                 </div>
-
                 <div className="item3">
+                    <div className="img2">
+                        <img src={img2} alt="ảnh 2" />
+                    </div>
                     <div className="img3">
                         <img src={img3} alt="ảnh 3" />
                     </div>
                     <div className="img4">
                         <img src={img3} alt="ảnh 3" />
                     </div>
-                    <div className="img5">
+                    {/* <div className="img5">
                         <img src={img4} alt="ảnh 4" />
                     </div>
                     <div className="img6">
                         <img src={img4} alt="ảnh 4" />
-                    </div>
+                    </div> */}
                     <div className="item3-content">
                         <div className="top text-[24px]">
                             <div className="mb-[10px]" data-aos="fade-right">Save</div>
