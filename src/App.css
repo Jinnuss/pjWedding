@@ -4,6 +4,7 @@
 .Section1 {
     position: relative;
     z-index: 1;
+    background: #efe4ea;
 }
 
 .img {
@@ -11,13 +12,16 @@
 
 }
 
+.img1-1 {
+    padding-top: 10px;
+    margin-left: 25%;
+    width: 45%;
+}
+
 .img1 {
     overflow: hidden;
     height: 35vh;
-}
-
-.img1-1 {
-    border: 5px solid #efe4ea;
+    background: #efe4ea;
 }
 
 .imgflower {

@@ -1,5 +1,6 @@
 import './App.css';
-import img1 from './img1/299366830_639788914170086_6418808672633004727_n.jpg';
+import img1 from './img1/atus.png';
+import img2 from './img1/dieu-nhi-anh-tu-1-3383-removebg-preview.png';
 import meo1 from './img1/meo1.png';
 import meo2 from './img1/meo2.png';
 import tulip1 from './img1/tulip2.png';
@@ -14,8 +15,10 @@ export function Content() {
     return (
         <>
             <div className="Section1">
-                <div className="img1" data-aos="zoom-out">
-                    <img className="img img1-1" src={img1} alt="ảnh 1" />
+                <div className='item1'>
+                    <div className="img1" data-aos="zoom-out">
+                        <img className="img1-1" src={img1} alt="ảnh 1" />
+                    </div>
                 </div>
                 <div className="item3">
                     <div className='imgflower' data-aos="zoom-in">
