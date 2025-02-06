@@ -1,9 +1,10 @@
 import './App.css';
-import img1 from './img1/1-1.jpg';
-import img3 from './img1/15-removebg-preview.png';
-import img4 from './img1/c214fb4710f7b69beafc9d094aaa058b-removebg-preview.png';
-import img5 from './img1/10.png';
-import img2 from './img1/12.png';
+import img1 from './img1/299366830_639788914170086_6418808672633004727_n.jpg';
+import meo1 from './img1/meo1.png';
+import meo2 from './img1/meo2.png';
+import tulip1 from './img1/tulip2.png';
+import tulip2 from './img1/tulip3.png';
+import flowerbg from './img1/15-removebg-preview.png';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -14,34 +15,39 @@ export function Content() {
         <>
             <div className="Section1">
                 <div className="img1" data-aos="zoom-out">
-                    <img className="img" src={img1} alt="ảnh 1" />
+                    <img className="img img1-1" src={img1} alt="ảnh 1" />
                 </div>
                 <div className="item3">
-                    <div className="img2">
-                        <img src={img2} alt="ảnh 2" />
+                    <div className='imgflower' data-aos="zoom-in">
+                        <img src={flowerbg} alt='bg' />
                     </div>
-                    <div className="img3" data-aos="zoom-in">
-                        <img src={img3} alt="ảnh 3" />
+                    <div className='imgflower1' data-aos="zoom-in">
+                        <img src={flowerbg} alt='bg' />
                     </div>
-                    <div className="img4" data-aos="zoom-in">
-                        <img src={img3} alt="ảnh 3" />
+                    <div className="item3-content1">
+                        <div className="imgmeo" >
+                            <img className="img" src={meo1} alt="mèo 1" />
+                        </div>
+                        <div className="imgtulip2" data-aos="zoom-in">
+                            <img className="img" src={tulip2} alt="tulip2" />
+                        </div>
                     </div>
-                    {/* <div className="img5">
-                        <img src={img4} alt="ảnh 4" />
-                    </div>
-                    <div className="img6">
-                        <img src={img4} alt="ảnh 4" />
-                    </div> */}
                     <div className="item3-content">
-                        <div className="top text-[24px]">
+                        <div className="imgmeo2" >
+                            <img className="img" src={meo2} alt="mèo 2" />
+                        </div>
+                        <div className="imgtulip1" >
+                            <img className="img" src={tulip1} alt="tulip2" />
+                        </div>
+                        <div className="top text-[26px]">
                             <div className="mb-[10px]" data-aos="fade-right">Save</div>
                             <div className="mb-[10px]" data-aos="fade-left">The</div>
                             <div data-aos="fade-right">Date</div>
                         </div>
-                        <div className="name text-[20px]" data-aos="fade-left">
+                        <div className="name text-[16px]" data-aos="fade-left">
                             QUAN GIOI & TA TRANG
                         </div>
-                        <div className="invite text-[18px]" data-aos="fade-right">
+                        <div className="invite text-[16px]" data-aos="fade-right">
                             Invite you to my wedding party!
                         </div>
                         <div className="bottom" >
@@ -51,7 +57,7 @@ export function Content() {
                             <div className="item" data-aos="fade-up">|</div>
                             <div className="item" data-aos="fade-left">Tuesday</div>
                         </div>
-                        <div className="text-center text-[28px] nam" data-aos="fade-up">2025</div>
+                        <div className="text-center text-[16px] nam" data-aos="fade-up">2025</div>
                     </div>
 
                 </div>
