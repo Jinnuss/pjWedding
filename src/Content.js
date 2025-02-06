@@ -1,5 +1,5 @@
 import './App.css';
-import img1 from './img1/1-1.jpg';
+import img1 from './img1/448900891_1517987695798721_5092223408935416574_n.jpg';
 import img3 from './img1/15-removebg-preview.png';
 import img4 from './img1/c214fb4710f7b69beafc9d094aaa058b-removebg-preview.png';
 import img5 from './img1/10.png';
@@ -45,13 +45,13 @@ export function Content() {
                             Invite you to my wedding party!
                         </div>
                         <div className="bottom" >
-                            <div className="item" data-aos="fade-right">JUNE</div>
+                            <div className="item" data-aos="fade-right">March</div>
                             <div className="item" data-aos="fade-up">|</div>
-                            <div className="item" data-aos="fade-down"> 16</div>
+                            <div className="item" data-aos="fade-down"> 11</div>
                             <div className="item" data-aos="fade-up">|</div>
-                            <div className="item" data-aos="fade-left">SUN</div>
+                            <div className="item" data-aos="fade-left">Tuesday</div>
                         </div>
-                        <div className="text-center text-[28px] nam" data-aos="fade-up">2024</div>
+                        <div className="text-center text-[28px] nam" data-aos="fade-up">2025</div>
                     </div>
 
                 </div>
