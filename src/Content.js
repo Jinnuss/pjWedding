@@ -44,7 +44,7 @@ export function Content() {
                             <div className="mb-[10px]" data-aos="fade-left">The</div>
                             <div data-aos="fade-right">Date</div>
                         </div>
-                        <div className="name text-[16px]" data-aos="fade-left">
+                        <div className="name text-[14px]" data-aos="fade-left">
                             QUAN GIOI & TA TRANG
                         </div>
                         <div className="invite text-[16px]" data-aos="fade-right">
